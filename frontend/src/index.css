@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4f46e5;
+  --secondary: #ec4899;
+  --accent: #f59e0b;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 overflow-x-hidden;
+  font-family: 'Outfit', 'Inter', sans-serif;
+}
+
+/* Custom Gradients */
+.glass-morphism {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-500;
+}
+
+.btn-premium {
+  @apply px-8 py-4 bg-gradient-to-r from-indigo-600 to-pink-600 text-white font-bold rounded-full 
+         hover:scale-105 transition-all duration-300 shadow-lg shadow-indigo-200 active:scale-95;
+}
+
+html {
+  scroll-behavior: smooth;
+}
