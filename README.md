@@ -1,3 +1,6 @@
+Live Demo:
+https://robo-sprouts.vercel.app
+
 RoboSprouts – AI & Robotics Summer Workshop
 
 RoboSprouts is a full-stack workshop landing page created as part of a technical assignment for Kidrove. The project focuses on building a clean, responsive page for an online AI and Robotics workshop designed for children.
@@ -47,7 +50,6 @@ I focused on building reusable React components to keep the code clean and organ
 
 Future Improvements
 
-With more time, I would improve form validation and error handling, add email notifications for registrations, deploy the project online, and enhance overall performance and accessibility.
-
+With more time, I would improve form validation and error handling, add email notifications for registrations.created an adminpanel for view and managing received enrollments.
 Note
 Environment variables are excluded from the repository for security reasons.
